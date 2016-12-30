@@ -18,6 +18,16 @@ Create a db.json file
   "profile": { "name": "typicode" }
 }
 
-Start JSON Server
+Start JSON Server:
 
 $ json-server --watch db.json
+
+To generate fake data we need to create generate.js file
+
+Install
+
+$ npm install faker lodash
+
+Start the fake data Server:
+
+$ json-server generate.js
